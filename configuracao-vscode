@@ -1,89 +1,97 @@
 {
-    // Define o tema do VSCode
-    "workbench.colorTheme": "Dracula",
+    "terminal.integrated.fontSize": 14,
   
-    // Configura tamanho e família da fonte
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile",
+  
+    "editor.tabSize": 2,
     "editor.fontSize": 18,
-    "editor.lineHeight": 24,
+    "editor.lineHeight": 26,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
   
-    // Aplica linhas verticais para lembrar de quebrar linha em códigos muito grandes
-    "editor.rulers": [80, 120],
-    "editor.formatOnSave": false,
+    "explorer.compactFolders": false,
+    "editor.renderLineHighlight": "gutter",
+    "workbench.editor.labelFormat": "short",
+    "extensions.ignoreRecommendations": true,
   
-    "eslint.packageManager": "yarn",
-    "eslint.autoFixOnSave": true,
-    "eslint.validate": [
-      {
-        "language": "javascript",
-        "autoFix": true
-      },
-      {
-        "language": "javascriptreact",
-        "autoFix": true
-      },
-      {
-        "language": "typescript",
-        "autoFix": true
-      },
-      {
-        "language": "typescriptreact",
-        "autoFix": true
-      }
-    ],
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+  
+    "breadcrumbs.enabled": true,
+    "editor.parameterHints.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    
+    "editor.rulers": [80, 120], 
+    
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
   
     "files.associations": {
-      ".sequelizerc": "javascript"
+      ".sequelizerc": "javascript",
+      ".stylelintrc": "json",
+      ".prettierrc": "json"
     },
   
-    // Aplica um sinal visual na esquerda da linha selecionada
-    "editor.renderLineHighlight": "gutter",
+    "window.zoomLevel": -1,
   
-    // Aumenta a fonte do terminal
-    "terminal.integrated.fontSize": 14,
+    "emmet.syntaxProfiles": { "javascript": "jsx" },
+    "emmet.includeLanguages": { "javascript": "javascriptreact" },
   
-    // Define o tema dos ícones na sidebar
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.startupEditor": "newUntitledFile",
-    "editor.tabSize": 2,
-    "window.zoomLevel": 0,
-    "extensions.ignoreRecommendations": true,
-    "emmet.syntaxProfiles": {
-      "javascript": "jsx",
-    },
-    "emmet.includeLanguages": {
-      "javascript": "javascriptreact",
-    },
-    "javascript.updateImportsOnFileMove.enabled": "never",
+    
     "gitlens.codeLens.recentChange.enabled": false,
     "gitlens.codeLens.authors.enabled": false,
     "gitlens.codeLens.enabled": false,
-    "breadcrumbs.enabled": true,
+  
     "git.enableSmartCommit": true,
-    "editor.parameterHints.enabled": false,
-    "typescript.updateImportsOnFileMove.enabled": "never",
     "terminal.integrated.shell.osx": "/bin/zsh",
-    "explorer.confirmDragAndDrop": false,
     "liveshare.featureSet": "insiders",
-    "explorer.confirmDelete": false,
   
     "typescript.tsserver.log": "verbose",
-    "javascript.suggest.autoImports": false,
-    "typescript.suggest.autoImports": false,
-    "workbench.activityBar.visible": true,
-    "files.autoSave": "afterDelay",
-    "[html]": {
-      "editor.defaultFormatter": "vscode.html-language-features"
+    "javascript.suggest.autoImports": true,
+    "typescript.suggest.autoImports": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "material-icon-theme.activeIconPack": "nest",
+    "screencastMode.onlyKeyboardShortcuts": true,
+  
+    "material-icon-theme.folders.associations": {
+      "infra": "app",
+      "entities": "class",
+      "schemas": "class",
+      "typeorm": "database",
+      "repositories": "mappings",
+      "http": "container",
+      "migrations": "tools",
+      "modules": "components",
+      "implementations": "core",
+      "dtos": "typescript",
+      "fakes": "mock",
+      "websockets": "pipe",
+      "protos": "pipe",
+      "grpc": "pipe"
     },
-    "[javascript]": {
+  
+    "material-icon-theme.files.associations": {
+      "ormconfig.json": "database",
+      "tsconfig.json": "tune",
+      "*.proto": "3d"
+    },
+  
+    "workbench.colorTheme": "Omni",
+    "files.autoSave": "afterDelay",
+    "sync.autoDownload": true,
+    "sync.autoUpload": true,
+    "sync.forceUpload": true,
+    "sync.quietSync": true,
+    "sync.forceDownload": true,
+    "sync.gist": "36218855934b9fd00c7e1d556c5e82fd",
+    "[html]": {
       "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "workbench.tree.indent": 7,
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
     }
   }
-
-// Video de configuração rocketseat
-//https://youtu.be/c7P03kkrEG8
-//Configuração terminal
-//https://blog.rocketseat.com.br/terminal-com-oh-my-zsh-spaceship-dracula-e-mais/
-//Fonte FiraCode
-//https://github.com/tonsky/FiraCode

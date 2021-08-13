@@ -1,97 +1,99 @@
 {
     "terminal.integrated.fontSize": 14,
-  
     "workbench.iconTheme": "material-icon-theme",
     "workbench.startupEditor": "newUntitledFile",
-  
     "editor.tabSize": 2,
     "editor.fontSize": 18,
     "editor.lineHeight": 26,
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
-  
     "explorer.compactFolders": false,
     "editor.renderLineHighlight": "gutter",
     "workbench.editor.labelFormat": "short",
     "extensions.ignoreRecommendations": true,
-  
     "javascript.updateImportsOnFileMove.enabled": "always",
     "typescript.updateImportsOnFileMove.enabled": "never",
-  
     "breadcrumbs.enabled": true,
     "editor.parameterHints.enabled": false,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
-    
     "editor.rulers": [80, 120], 
-    
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
+    "source.fixAll.eslint": true
     },
-  
     "files.associations": {
-      ".sequelizerc": "javascript",
-      ".stylelintrc": "json",
-      ".prettierrc": "json"
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json"
     },
-  
-    "window.zoomLevel": -1,
-  
     "emmet.syntaxProfiles": { "javascript": "jsx" },
     "emmet.includeLanguages": { "javascript": "javascriptreact" },
-  
-    
     "gitlens.codeLens.recentChange.enabled": false,
     "gitlens.codeLens.authors.enabled": false,
     "gitlens.codeLens.enabled": false,
-  
     "git.enableSmartCommit": true,
-    "terminal.integrated.shell.osx": "/bin/zsh",
     "liveshare.featureSet": "insiders",
-  
     "typescript.tsserver.log": "verbose",
     "javascript.suggest.autoImports": true,
     "typescript.suggest.autoImports": true,
     "liveServer.settings.donotShowInfoMsg": true,
     "material-icon-theme.activeIconPack": "nest",
     "screencastMode.onlyKeyboardShortcuts": true,
-  
     "material-icon-theme.folders.associations": {
-      "infra": "app",
-      "entities": "class",
-      "schemas": "class",
-      "typeorm": "database",
-      "repositories": "mappings",
-      "http": "container",
-      "migrations": "tools",
-      "modules": "components",
-      "implementations": "core",
-      "dtos": "typescript",
-      "fakes": "mock",
-      "websockets": "pipe",
-      "protos": "pipe",
-      "grpc": "pipe"
+    "infra": "app",
+    "entities": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe"
     },
-  
     "material-icon-theme.files.associations": {
-      "ormconfig.json": "database",
-      "tsconfig.json": "tune",
-      "*.proto": "3d"
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d"
     },
-  
-    "workbench.colorTheme": "Omni",
     "files.autoSave": "afterDelay",
-    "sync.autoDownload": true,
-    "sync.autoUpload": true,
-    "sync.forceUpload": true,
-    "sync.quietSync": true,
-    "sync.forceDownload": true,
-    "sync.gist": "36218855934b9fd00c7e1d556c5e82fd",
+    "sync.autoDownload": false,
+    "sync.autoUpload": false,
+    "sync.forceUpload": false,
+    "sync.quietSync": false,
+    "sync.forceDownload": false,
+    "sync.gist": "ad88fc4cff11f9f5c3113aea6d40edec",
     "[html]": {
-      "editor.defaultFormatter": "HookyQR.beautify"
+    "editor.defaultFormatter": "HookyQR.beautify"
     },
     "workbench.tree.indent": 7,
     "[javascript]": {
-      "editor.defaultFormatter": "vscode.typescript-language-features"
-    }
-  }
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[css]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "settingsSync.ignoredExtensions": [
+    ],
+    "git.autofetch": true,
+    "files.eol": "\r\n",
+    "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "workbench.colorTheme": "Dracula",
+    "[jsonc]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "[json]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "window.zoomLevel": -2,
+    "liveServer.settings.donotVerifyTags": true
+    } 

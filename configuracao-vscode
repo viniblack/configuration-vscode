@@ -1,10 +1,10 @@
 {
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 16,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
   "editor.tabSize": 2,
-  "editor.fontSize": 18,
-  "editor.lineHeight": 26,
+  "editor.fontSize": 19,
+  "editor.lineHeight": 28,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "explorer.compactFolders": false,
@@ -38,7 +38,6 @@
   "typescript.suggest.autoImports": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "screencastMode.onlyKeyboardShortcuts": true,
-  "files.autoSave": "afterDelay",
   "sync.autoDownload": false,
   "sync.autoUpload": false,
   "sync.forceUpload": false,
@@ -72,7 +71,6 @@
   "[json]": {
   "editor.defaultFormatter": "HookyQR.beautify"
   },
-  "window.zoomLevel": -2,
   "liveServer.settings.donotVerifyTags": true,
   "terminal.integrated.profiles.linux": {
     "bash": {
@@ -97,5 +95,8 @@
       "path": "/usr/bin/zsh"
     }
   },
+  "files.autoSave": "afterDelay",
+  "window.zoomLevel": -1,
+  "todohighlight.isEnable": true,
   
   } 

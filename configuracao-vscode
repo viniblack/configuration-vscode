@@ -33,7 +33,7 @@
   "gitlens.codeLens.enabled": false,
   "git.enableSmartCommit": true,
   "liveshare.featureSet": "insiders",
-  "typescript.tsserver.log": "verbose",
+  "typescript.tsserver.log": "off",
   "javascript.suggest.autoImports": true,
   "typescript.suggest.autoImports": true,
   "liveServer.settings.donotShowInfoMsg": true,
@@ -43,13 +43,12 @@
   "sync.forceUpload": false,
   "sync.quietSync": false,
   "sync.forceDownload": false,
-  "sync.gist": "ad88fc4cff11f9f5c3113aea6d40edec",
   "[html]": {
-  "editor.defaultFormatter": "HookyQR.beautify"
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "workbench.tree.indent": 7,
   "[javascript]": {
-  "editor.defaultFormatter": "vscode.typescript-language-features"
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[css]": {
   "editor.defaultFormatter": "HookyQR.beautify"
@@ -95,8 +94,28 @@
       "path": "/usr/bin/zsh"
     }
   },
-  "files.autoSave": "afterDelay",
-  "window.zoomLevel": -1,
   "todohighlight.isEnable": true,
+  "tabnine.experimentalAutoImports": true,
+  "files.autoSave": "afterDelay",
+  "editor.minimap.enabled": false,
+  "editor.inlineSuggest.enabled": true,
+  "hardhat.telemetry": true,
+  "[solidity]": {
+    "editor.defaultFormatter": "NomicFoundation.hardhat-solidity"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": true,
+    "javascript": false
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "markdown-preview-enhanced.previewTheme": "monokai.css",
+  "window.zoomLevel": -1,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "sync.gist": "8813f7c27115b9f86550c6f4ca15caca",
   
   } 

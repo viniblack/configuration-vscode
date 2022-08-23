@@ -50,9 +50,6 @@
   "[javascript]": {
   "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[css]": {
-  "editor.defaultFormatter": "HookyQR.beautify"
-  },
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "settingsSync.ignoredExtensions": [
@@ -63,13 +60,7 @@
   "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "workbench.colorTheme": "Dracula",
-  "[jsonc]": {
-  "editor.defaultFormatter": "HookyQR.beautify"
-  },
   "terminal.integrated.defaultProfile.linux": "zsh (2)",
-  "[json]": {
-  "editor.defaultFormatter": "HookyQR.beautify"
-  },
   "liveServer.settings.donotVerifyTags": true,
   "terminal.integrated.profiles.linux": {
     "bash": {
@@ -114,8 +105,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "markdown-preview-enhanced.previewTheme": "monokai.css",
-  "window.zoomLevel": -1,
   "diffEditor.ignoreTrimWhitespace": false,
   "sync.gist": "8813f7c27115b9f86550c6f4ca15caca",
+  "window.zoomLevel": -1,
   
   } 
